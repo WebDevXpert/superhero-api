@@ -47,7 +47,7 @@ function Main() {
       <div className="text-center my-2">
         <input
           type="search"
-          className="border w-48"
+          className="border border-black w-48 p-2 outline-none rounded-md"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />

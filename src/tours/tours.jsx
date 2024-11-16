@@ -4,7 +4,7 @@ import Tour from "./tour";
 function Tours({ superheros, deleteHero, query }) {
   return (
     <>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex justify-center flex-wrap gap-2">
         {superheros
           .filter((mereHeros) => {
             return mereHeros.name.toLowerCase().startsWith(query);
